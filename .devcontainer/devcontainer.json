@@ -1,6 +1,6 @@
 {
 	"name": "Dart",
-	"dockerFile": "Dockerfile",
+	"postCreateCommand": "TEMP_DEB=\"$(mktemp)\" && wget -O \"$TEMP_DEB\" 'https://storage.googleapis.com/dart-archive/channels/stable/release/latest/linux_packages/dart_2.6.0-1_amd64.deb' && sudo dpkg -i \"$TEMP_DEB\"",
 	"extensions": [
 		"dart-code.dart-code"
 	]
