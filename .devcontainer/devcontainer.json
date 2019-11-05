@@ -1,0 +1,7 @@
+{
+	"name": "Dart",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"dart-code.dart-code"
+	]
+}
